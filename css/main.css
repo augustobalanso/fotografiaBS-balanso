@@ -46,7 +46,7 @@ html, body {
     padding: 10px;
 }
 
-.bigicon {
+.form-bigicon {
     font-size: 35px;
     color: #36A0FF;
 }
@@ -91,5 +91,12 @@ html, body {
 @media only screen and (max-width: 992px) {
     .nav-link {
         font-size: 1rem;
+    }
+}
+
+@media only screen and (max-width: 576px) {
+    .form-bigicon {
+        font-size: 27px;
+        color: #36A0FF;
     }
 }
