@@ -29,17 +29,6 @@ html, body {
 
 /* ----- ----- FORM FORMAT ----- ----- */
 
-.carousel {
-    top: 0;
-    z-index: 0;
-}
-
-.carousel__img {
-    height: 100vh;
-    object-fit: cover;
-    overflow-x: hidden;
-}
-
 .header {
     color: #36A0FF;
     font-size: 27px;
@@ -52,6 +41,18 @@ html, body {
 }
 
 /* ----- ----- CAROUSEL FORMAT ----- ----- */
+
+.carousel {
+    top: 0;
+    z-index: 0;
+}
+
+.carousel__img {
+    height: 100vh;
+    object-fit: cover;
+    overflow-x: hidden;
+}
+
 .carousel,
 .item {
     height: 100%;
